@@ -13,19 +13,31 @@ h1 {
 div {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin: 10px;
   font-size: 20px;
 }
 
-button {
-  padding: 10px 20px;
-  margin-top: 20px;
-  width: 200px;
-  height: 80px;
-  color: green;
-  background-color: bisque;
-  font-size: 20px;
+.deleteButton {
   border-radius: 20px;
-  border-color: none;
+  width: 150px;
+  font-size: 25px;
+  float: right;
+  margin-left: 80%
+}
+
+.titleHeader {
+  font-family: system-ui;
+  padding: 60px;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.table.table.table {
+  font-family: inherit;
+  font-size: 24px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
 }
